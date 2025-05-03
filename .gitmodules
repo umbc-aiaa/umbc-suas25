@@ -1,0 +1,4 @@
+[submodule "umbc-suas25/themes/blowfish"]
+	path = umbc-suas25/themes/blowfish
+	url = https://github.com/nunocoracao/blowfish.git
+	branch = main
