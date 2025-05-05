@@ -100,7 +100,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "5"
+    "wordCount": "215"
   }]
   </script>
 
@@ -628,7 +628,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="0001-01-01T00:00:00&#43;00:00">1 January 0001</time><span class="px-2 text-primary-500">&middot;</span><span>5 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  <time datetime="0001-01-01T00:00:00&#43;00:00">1 January 0001</time><span class="px-2 text-primary-500">&middot;</span><span>215 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
   
 
   
@@ -689,7 +689,55 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>The wing dun dun dun&hellip;.</p>
+          
+
+<h1 class="relative group">Introduction 
+    <div id="introduction" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#introduction" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>When selecting electronic components for our plane, we wanted to make sure that they worked over the entire range of the flight while also being easy to configure. When selecting our motors, we wanted to optimize both power and range. Therefore, we focused on having reliable testing infrastructure in this competition year.</p>
+
+
+<h1 class="relative group">Requirements 
+    <div id="requirements" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#requirements" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>For our plane this year, we realized that it would be easier to select our avionics components like servos and other sensors first, and select a flight controller(FC) that supports all of our required equipment on the plane. Therefore, we first brainstormed a list of components we wanted the FC to support which included:</p>
+<pre tabindex="0"><code>- ELRS Reciever
+- Telemetry Radio
+- GPS
+- Object avoidance electronics
+- Landing electronics
+- Controls surface servo ports
+    - Aileron
+    - Flaps
+    - Tails
+- Steerable landing gear
+- Kill Switch
+- Throttle
+- FPV Camera
+- Airspeed Sensor(s)
+</code></pre><p>We also wanted our FC to be price-efficient, so we considered several options that fit our general requirements:</p>
+<pre tabindex="0"><code>- Pix32 v6
+- Holybro Pixhawk4
+- Pixhawk 6C
+- Kakute H743 Wing
+- iFlight BLITZ Wing H743
+- Mateksys H743-Wing
+- SpeedyBeeF405WING
+</code></pre><p>We ended up choosing the Mateksys H743-Wing for its wide availability of ports for the aforementioned requirements, and its great compatibility with Ardupilot.</p>
 
           
           
