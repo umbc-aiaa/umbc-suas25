@@ -49,6 +49,7 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
+        working-directory: ./umbc-suas25
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
@@ -57,9 +58,10 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
+        working-directory: ./umbc-suas25
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./umbc-suas25/public
+          path: ./public
 
   # Deployment job
   deploy:
