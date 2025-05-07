@@ -3,6 +3,8 @@ menus:
     main:
         parent: Documentation
 Title: Electronics Connections
+authors:
+   - Will
 ---
 
 Throughout our preparations for the competition this year, my responsibilities primarily involved hardware-related assembly. Specifically, I did many of the soldering required for the electrical components of the aircraft, including the flight-controller, GPS, LiDAR system, and RC receiver. This also involved consulting wiring diagrams to ensure that all pins and connections were in their correct places, as well as configuring software to allow for proper functionality, such as writing firmware to the flight controller. Further, having had prior soldering experience, I ensured that the aircraft’s solder joints appeared strong and re-did any improper connections as an important aspect of safety and reliability in the air.
