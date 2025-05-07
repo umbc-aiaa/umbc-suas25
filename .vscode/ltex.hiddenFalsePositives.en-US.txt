@@ -1,0 +1,4 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QHowever, throughout the flight, the roll authority felt a bit off: it would oscillate in FBWA mode, despite the roll being tuned.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThe log files showed the FBWA responding properly.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QAfter a successful completion of autotune, the switch to FBWA mode resulted in a rapid descent with no ability for climb.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFBWA controls were poorly tuned resulting an inadequate pitch up.\\E$"}
