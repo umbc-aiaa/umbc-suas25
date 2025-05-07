@@ -3,6 +3,9 @@ menus:
     main:
         parent: Development
 Title: Landing Gear
+showAuthor: true
+authors:
+    - Turibius
 ---
 ![alt text](/development/RearLG-Pre.webp)
 
