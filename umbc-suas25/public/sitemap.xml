@@ -3,57 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>/development/avionics/</loc>
+    <loc>//localhost:1313/development/avionics/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/development/composites/</loc>
+    <loc>//localhost:1313/development/composites/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/development/design-considerations/</loc>
+    <loc>//localhost:1313/development/design-considerations/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/development/</loc>
+    <loc>//localhost:1313/development/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/documentation/</loc>
+    <loc>//localhost:1313/documentation/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/development/electronics/</loc>
+    <loc>//localhost:1313/development/electronics/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/development/fuselage/</loc>
+    <loc>//localhost:1313/development/fuselage/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/</loc>
+    <loc>//localhost:1313/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/development/landing-gear/</loc>
+    <loc>//localhost:1313/development/landing-gear/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/development/the-maiden-flight/</loc>
+    <loc>//localhost:1313/development/the-maiden-flight/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/development/the-wing/</loc>
+    <loc>//localhost:1313/development/the-wing/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
