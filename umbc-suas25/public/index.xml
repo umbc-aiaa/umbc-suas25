@@ -2,89 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on UMBC SUAS 2025</title>
-    <link>/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content in Home on UMBC SUAS 2025</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 </copyright>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Avionics</title>
-      <link>/development/avionics/</link>
+      <title>Communications</title>
+      <link>//localhost:1313/development/communications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/development/avionics/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Composites</title>
-      <link>/development/composites/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/development/composites/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Design Considerations</title>
-      <link>/development/design-considerations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/development/design-considerations/</guid>
+      <guid>//localhost:1313/development/communications/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Electronics</title>
-      <link>/development/electronics/</link>
+      <link>//localhost:1313/development/electronics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/development/electronics/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Fuselage</title>
-      <link>/development/fuselage/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/development/fuselage/</guid>
+      <guid>//localhost:1313/development/electronics/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Landing Gear</title>
-      <link>/development/landing-gear/</link>
+      <link>//localhost:1313/development/landing-gear/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/development/landing-gear/</guid>
+      <guid>//localhost:1313/development/landing-gear/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>The Maidien Flight(And Crash)</title>
-      <link>/development/the-maiden-flight/</link>
+      <link>//localhost:1313/development/the-maiden-flight/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/development/the-maiden-flight/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>The Wing</title>
-      <link>/development/the-wing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/development/the-wing/</guid>
+      <guid>//localhost:1313/development/the-maiden-flight/</guid>
       <description></description>
       
     </item>
