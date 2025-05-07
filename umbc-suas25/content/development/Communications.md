@@ -3,6 +3,9 @@ menus:
     main:
         parent: Development
 Title: Communications
+showAutho: true
+authors:
+    - "Shrikanth"
 ---
 
 The Gita XI 12 communicates with the ground station using the MAVLink (Micro Air Vehicle Link) protocol.

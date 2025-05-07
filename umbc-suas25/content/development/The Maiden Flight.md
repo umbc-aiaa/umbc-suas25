@@ -5,7 +5,7 @@ menus:
 Title: The Maidien Flight(And Crash)
 showAuthor: true
 authors:
-    - "Turibius Rozario"
+    - Turibius
 ---
 
 {{< media/iframe "https://drive.google.com/file/d/1nwCIJkD2g7H9cY7iV_6vBJGUtOcA2-2A/preview">}}
