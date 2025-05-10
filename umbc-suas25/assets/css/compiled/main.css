@@ -1032,6 +1032,9 @@ body.zen-mode-enable {
   .table-cell {
     display: table-cell;
   }
+  .aspect-auto {
+    aspect-ratio: auto;
+  }
   .aspect-video {
     aspect-ratio: var(--aspect-video);
   }
