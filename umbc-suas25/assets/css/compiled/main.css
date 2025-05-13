@@ -375,6 +375,9 @@ body.zen-mode-enable {
   .my-3 {
     margin-block: calc(var(--spacing) * 3);
   }
+  .my-10 {
+    margin-block: calc(var(--spacing) * 10);
+  }
   .prose {
     color: var(--tw-prose-body);
     max-width: 65ch;
@@ -884,6 +887,9 @@ body.zen-mode-enable {
   .mr-5 {
     margin-right: calc(var(--spacing) * 5);
   }
+  .mr-10 {
+    margin-right: calc(var(--spacing) * 10);
+  }
   .mr-auto {
     margin-right: auto;
   }
@@ -1031,9 +1037,6 @@ body.zen-mode-enable {
   }
   .table-cell {
     display: table-cell;
-  }
-  .aspect-auto {
-    aspect-ratio: auto;
   }
   .aspect-video {
     aspect-ratio: var(--aspect-video);
@@ -1656,6 +1659,9 @@ body.zen-mode-enable {
   }
   .bg-clip-padding {
     background-clip: padding-box;
+  }
+  .fill-current {
+    fill: currentcolor;
   }
   .object-cover {
     object-fit: cover;

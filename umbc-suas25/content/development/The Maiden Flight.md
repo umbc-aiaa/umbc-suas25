@@ -2,7 +2,7 @@
 menus:
     main:
         Parent: Development
-Title: The Maidien Flight(And Crash)
+Title: The Maiden Flight(And Crash)
 showAuthor: true
 authors:
     - Turibius
