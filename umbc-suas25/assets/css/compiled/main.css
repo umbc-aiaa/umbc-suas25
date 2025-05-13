@@ -890,6 +890,9 @@ body.zen-mode-enable {
   .mr-10 {
     margin-right: calc(var(--spacing) * 10);
   }
+  .mr-15 {
+    margin-right: calc(var(--spacing) * 15);
+  }
   .mr-auto {
     margin-right: auto;
   }
@@ -1322,6 +1325,9 @@ body.zen-mode-enable {
   .flex-wrap {
     flex-wrap: wrap;
   }
+  .content-center {
+    align-content: center;
+  }
   .items-center {
     align-items: center;
   }
@@ -1333,6 +1339,9 @@ body.zen-mode-enable {
   }
   .justify-center {
     justify-content: center;
+  }
+  .justify-end {
+    justify-content: flex-end;
   }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
@@ -2153,6 +2162,10 @@ body.zen-mode-enable {
   .duration-\[600ms\] {
     --tw-duration: 600ms;
     transition-duration: 600ms;
+  }
+  .duration-\[2000ms\] {
+    --tw-duration: 2000ms;
+    transition-duration: 2000ms;
   }
   .ease-\[cubic-bezier\(0\,0\,0\.15\,1\)\,_cubic-bezier\(0\,0\,0\.15\,1\)\] {
     --tw-ease: cubic-bezier(0,0,0.15,1), cubic-bezier(0,0,0.15,1);
