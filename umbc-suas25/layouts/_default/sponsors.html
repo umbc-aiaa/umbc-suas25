@@ -1,0 +1,55 @@
+{{ define "main" }}
+{{ .Scratch.Set "scope" "sponsors" }}
+
+<article>
+  <header>
+      {{ if .Params.showHero | default (.Site.Params.article.showHero | default false) }}
+      {{ $heroStyle := .Params.heroStyle }}
+      {{ if not $heroStyle }}{{ $heroStyle = .Site.Params.article.heroStyle }}{{ end }}
+      {{ $heroStyle := print "hero/" $heroStyle ".html" }}
+      {{ if templates.Exists ( printf "partials/%s" $heroStyle ) }}
+      {{ partial $heroStyle . }}
+      {{ else }}
+      {{ partial "hero/basic.html" . }}
+      {{ end }}
+      {{ end }}
+  </header>
+
+  <div class="flex justify-center">
+    <h1 class="text-4xl p-4">Thank You Sponsors!</h1>
+  </div>
+
+  {{ partial "carousel" (dict "images" "img/sponsors/*" "aspectRatio" "21-9")}}
+
+  <div class="text-center my-10">
+    <ul>
+        <li><strong>UMBC SGA</strong></li>
+        <li><strong>UMBC Mechanical Engineering Department</strong></li>
+        <li><strong>UMBC Computer Science and Electrical Engineering Department</strong></li>
+        <li><strong>UMBC COEIT</strong></li>
+        <li><strong>Solid Works</strong></li>
+        <li><strong>Middle River Aerostructures Sytems</strong></li>
+        <li><strong>Composite Envisions</strong></li>
+    </ul>
+  </div>
+
+
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    {{ partial "article-pagination.html" . }}
+    {{ if .Params.showComments | default (.Site.Params.article.showComments | default false) }}
+    {{ if templates.Exists "partials/comments.html" }}
+    <div class="pt-3">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="pt-3">
+        {{ partial "comments.html" . }}
+      </div>
+    </div>
+    {{ else }}
+    {{ warnf "[BLOWFISH] Comments are enabled for %s but no comments partial exists." .File.Path }}
+    {{ end }}
+    {{ end }}
+  </footer>
+
+</article>
+{{ end }}
