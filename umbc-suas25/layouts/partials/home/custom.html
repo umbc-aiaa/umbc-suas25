@@ -4,15 +4,14 @@
     {{ end }}
 </div>
 
+<div class="flex flex-wrap my-2 gap-4 items-center">
+  <div class="flex-1 min-w-80">
+    {{ with resources.GetMatch "img/Homepage_Gita.jpg"}}
+    <img src="{{ .RelPermalink }}" alt="Team Photo" class="aspect-video rounded-lg">
+    {{ end }}
+  </div>
 
-{{ $teamimage := "img/team.jpg"}}
-
-<div style="background-color: rgba(220, 240, 255, 0); display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; margin: 2rem 0; padding : 10px ;border-radius: 10px;" align = "center">
-  {{ with resources.GetMatch $teamimage}}
-  <img src="{{ .RelPermalink }}" alt="Team Photo" style="max-width: 400px; width: 100%; border-radius: 12px;">
-  {{ end }}
-
-  <div class="flex-1">
+  <div class="flex-1 min-w-80 text-center">
     <h2 class="font-bold text-2xl">About UMBC SUAS</h2>
     <p>
       Gita XI-12 is an advanced fixed-wing autonomous unmanned aerial vehicle (UAV) designed for high performance in the 2025 SUAS competition.
@@ -22,34 +21,46 @@
       Our team's objective is to achieve this goal with our first participation in SUAS 2025.
     </p>
   </div>
+</div>
+<div class="my-2 text-center">
   <p>
     As an institution without dedicated aerospace or robotics departments, we aim to foster learning and enthusiasm for autonomous aviation while scoring at least 60% in the competition.
     With limited knowledge and resources, we focus on building a reliable aircraft through rigorous testing of core components, including wing strength, electronic reliability, and structural integrity.
     Pre-flight checks are conducted meticulously to ensure safety and success every time we take to the skies.
   </p>
-
 </div>
 
 
-<h2 class="text-center font-bold text-2xl">Meet the Team</h2>
 
-<ul class="text-center">
-  <li>Alvin Jecinta</li>
-  <li>Ben Bazarsuren</li>
-  <li>Connor Morris</li>
-  <li>Gabriel Farmer</li>
-  <li>Jonah Malcom</li>
-  <li>Kai Murella</li>
-  <li>Kamil Izuagie</li>
-  <li>Mario Smith</li>
-  <li>Murali Indukuri</li>
-  <li>Nebiyu Mammo</li>
-  <li>Nowrin Chowdhury</li>
-  <li>Pranav Bonagiri</li>
-  <li>Shrikant Bhatnagar</li>
-  <li>Turibius Rozario</li>
-  <li>Willaim Vandenburg</li>
-</ul>
+
+<div class="flex flex-wrap my-10 gap-4 items-center">
+  <div class="flex-1 min-w-80">
+    {{ with resources.GetMatch "img/team.jpg"}}
+    <img src="{{ .RelPermalink }}" alt="Team Photo" class="aspect-auto rounded-lg">
+    {{ end }}
+  </div>
+  <div class="flex-1 text-center">
+    <h2 class="font-bold text-2xl">Meet the Team</h2>
+    <ul class="text-nowrap">
+      <li>Abhishek Ramakrishnaraja</li>
+      <li>Alvin Jecinta</li>
+      <li>Ben Bazarsuren</li>
+      <li>Connor Morris</li>
+      <li>Gabriel Farmer</li>
+      <li>Jonah Malcom</li>
+      <li>Kai Murella</li>
+      <li>Kamil Izuagie</li>
+      <li>Mario Smith</li>
+      <li>Murali Indukuri</li>
+      <li>Nebiyu Mammo</li>
+      <li>Nowrin Chowdhury</li>
+      <li>Pranav Bonagiri</li>
+      <li>Shrikant Bhatnagar</li>
+      <li>Turibius Rozario</li>
+      <li>Willaim Vandenburg</li>
+    </ul>
+    </div>
+  </div>
 
 
 
